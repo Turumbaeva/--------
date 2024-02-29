@@ -344,6 +344,23 @@ font-size: 40px;
 font-weight: 700;
 line-height: 57px;
 letter-spacing: 0.20000000298023224px;
-text-align: left;
-
+text-align: center;
+margin-bottom: 10px;
+color: white;
 }
+.say_txt{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+margin-bottom: 60px;
+color: white;
+}
+.say{
+	background: black;
+}
+.say_card{
+	background: white;
+}	
