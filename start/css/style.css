@@ -120,25 +120,28 @@ section {
 }
 
 .btn {
-	background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
-	box-shadow: 0px 4px 0px #836A36;
-	border-radius: 10px;
+    box-shadow: 0px 4px 0px #f3e7cc;
+	border-radius: 50px;
 	font-weight: 800;
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
 	text-transform: uppercase;
-	color: #34280E;
-	height: 85px;
+	color: white;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
+	width: 14%;
 	padding: 14px 0;
 	transition: 0.3s;
 }
-
+.first_btns{
+justify-content: normal;
+}
+.first_btn{
+	background: #FF7B47;
+}
 .btn:hover {
 	box-shadow: 0px 6px 5px 2px #836A36;
 }
@@ -196,7 +199,9 @@ font-weight: 500;
 line-height: 30px;
 letter-spacing: 0.20000000298023224px;
 text-align: center;
-
+margin: 40px 0 40px;
 }
-.
+.first{
+	
+}
 
