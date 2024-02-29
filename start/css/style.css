@@ -141,6 +141,7 @@ gap: 1%;
 .first_btn{
 	background: #FF7B47;
 	margin-left: 18%;
+	border: #FF7B47;
 }
 .btn:hover {
 	box-shadow: 0px 6px 5px 2px #836A36;
@@ -180,6 +181,13 @@ gap: 324px;
 .head_a{
 	color: white;
 	margin-right: 21px;
+	transition: 0.5s;
+}
+.head_a:hover{
+	color: #717275;
+}
+.secon_card_btn:hover{
+	background: #706c6c;
 }
 .head_tittle{
 font-family: Montserrat;
@@ -466,4 +474,35 @@ color: white;
 }
 .have{
 	background: #252B42;
+}
+.footer_navs{
+	justify-content: space-around;
+	margin: 80px ;
+}
+.footer_tit{
+	margin-bottom: 20px;
+	color: #252B42;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+
+}
+.footer_link{
+	margin: 10px 0;
+}
+.footer_txt{
+	width: 213px;
+}
+
+.footer_down{
+	background: #FAFAFA;
+	padding: 25px 0;
+	margin: -108px;
+    margin-top: 60px;
+}
+.footer_down_txt{
+	text-align: center;
 }
