@@ -173,7 +173,7 @@ border-radius: 34px;
 gap: 324px;
 
 }
-.menu a:: hover{
+.menu a:hover{
 	background: #dbdfd0;
 }
 
