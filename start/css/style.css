@@ -274,10 +274,9 @@ width: 148px;
 	line-height: 57px;
 	letter-spacing: 0.20000000298023224px;
 	text-align: center;
-	width: 324px;
+	margin-bottom: 20px;
 }
 .who_txt{
-	width: 511px;
 	font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 500;
@@ -304,7 +303,7 @@ width: 324px;
 	letter-spacing: 0.20000000298023224px;
 	text-align: left;
 	margin: 3%;
-
+	margin-bottom: 40px;
 }
 .who_cards{
 	flex-wrap: nowrap;
@@ -319,6 +318,7 @@ line-height: 24px;
 letter-spacing: 0.10000000149011612px;
 text-align: left;
 width: 277px;
+color: black;
 }
 .who_right_card_txt{
 font-family: Montserrat;
@@ -327,5 +327,14 @@ font-weight: 600;
 line-height: 24px;
 letter-spacing: 0.20000000298023224px;
 text-align: left;
-
+color: #737373;
+}
+.who_right_card_ic{
+	margin-right: 3%;
+}
+.who_right_cards{
+	margin-bottom: 30px;
+}
+.who_right{
+	align-self: center;
 }
