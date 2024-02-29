@@ -224,3 +224,108 @@ margin: 40px 0 40px;
 .first_all_txt{
     margin: 7% 28%;
 }
+
+.second_tit{
+	margin: 20px 0;
+	font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+
+}
+.second_card_txt{
+	margin-bottom: 20px;
+	font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+width: 148px;
+}
+.secon_card_ic{
+	width: 36%;
+}
+.second{
+	background: #FAFAFA;
+}
+.second_card{
+	background: white;
+	padding: 3%;
+	transition: 0.5s;
+}
+.second_card:hover{
+	background: #252B42;
+	color: white;
+}
+.second_cards{
+	justify-content: space-around;
+}
+.secon_card_btn{
+	border: 1px solid #000000;
+	color: black;
+}
+.who_tit{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 57px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	width: 324px;
+}
+.who_txt{
+	width: 511px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	
+}
+.who_right_tit{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+width: 324px;
+}
+.who_right_txt{
+	width: 330px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+	margin: 3%;
+
+}
+.who_cards{
+	flex-wrap: nowrap;
+	gap: 9%;
+	margin-top: 100px;
+}
+.who_right_card_tit{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+width: 277px;
+}
+.who_right_card_txt{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
