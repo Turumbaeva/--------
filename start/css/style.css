@@ -420,7 +420,6 @@ justify-content: space-around;
 	transition: 0.2s ease;
 	color: #F3CD03;
 }
-
 .star-rating label:hover {
 	color: #ff69b4;
 	transition: 0.2s ease;
@@ -439,4 +438,25 @@ justify-content: space-around;
 
 .star-rating input:checked~label:before {
 	content: '\2605';
+}
+.have_tit{
+	width: 455px;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+margin-bottom: 15px;
+
+}
+.have_txt{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+	width: 456px;
 }
