@@ -120,10 +120,8 @@ section {
 }
 
 .btn {
-    box-shadow: 0px 4px 0px #f3e7cc;
+	border: 1px solid #ffffff;
 	border-radius: 50px;
-	font-weight: 800;
-	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
 	text-transform: uppercase;
@@ -132,15 +130,17 @@ section {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	width: 14%;
-	padding: 14px 0;
+	width: 35%;
+	padding: 10px 36px 	;
 	transition: 0.3s;
 }
 .first_btns{
 justify-content: normal;
+gap: 1%;
 }
 .first_btn{
 	background: #FF7B47;
+	margin-left: 18%;
 }
 .btn:hover {
 	box-shadow: 0px 6px 5px 2px #836A36;
@@ -157,11 +157,10 @@ justify-content: normal;
 .flex {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 /*header*/
-.head {
+/* .head {
 	padding: 20px 0;
 	align-items: end;
 }
@@ -178,10 +177,26 @@ gap: 324px;
 }
 .menu a:hover{
 	background: #dbdfd0;
+} */
+.head_a{
+	color: white;
+	margin-right: 21px;
 }
-
+.head_tittle{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: white;
+}
+.header{
+	justify-content: space-between;
+}
 /*MAIN*/
 .first_tit{
+	color: white;
 	width: 635px;
 font-family: Montserrat;
 font-size: 58px;
@@ -192,7 +207,8 @@ text-align: center;
 
 }
 .first_txt{
-	width: 539px;
+	color: white;
+	width: 632px;
 font-family: Montserrat;
 font-size: 20px;
 font-weight: 500;
@@ -202,6 +218,8 @@ text-align: center;
 margin: 40px 0 40px;
 }
 .first{
-	
+	background: url(/start/img/background\ \(1\).jpg) center no-repeat;
 }
-
+.first_all_txt{
+    margin: 7% 28%;
+}
