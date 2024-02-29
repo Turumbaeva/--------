@@ -363,4 +363,80 @@ color: white;
 }
 .say_card{
 	background: white;
+	padding: 30px 60px;
 }	
+.say_card_tit{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #000000;
+}
+.say_card_txt{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #737373;
+}
+.say_card_txt_2{
+	width: 370px;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #737373;
+}
+.say_cards{
+justify-content: space-around;
+}
+
+/* stars */
+.star-rating {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin: 10px;
+	position: relative;
+	justify-content: center;
+}
+
+.star-rating input {
+	display: none;
+}
+
+.star-rating>label {
+	width: 30px;
+	height: 30px;
+	font-family: Arial;
+	font-size: 30px;
+	transition: 0.2s ease;
+	color: #F3CD03;
+}
+
+.star-rating label:hover {
+	color: #ff69b4;
+	transition: 0.2s ease;
+}
+
+.star-rating label:active::before {
+	transform: scale(1.1);
+}
+
+.star-rating label::before {
+	content: '\2606';
+	position: absolute;
+	top: 0px;
+	line-height: 26px;
+}
+
+.star-rating input:checked~label:before {
+	content: '\2605';
+}
