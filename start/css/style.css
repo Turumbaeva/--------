@@ -338,3 +338,12 @@ color: #737373;
 .who_right{
 	align-self: center;
 }
+.say_tit{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
