@@ -156,7 +156,6 @@ gap: 1%;
 
 .flex {
 	display: flex;
-	flex-wrap: wrap;
 }
 
 /*header*/
@@ -448,7 +447,7 @@ line-height: 57px;
 letter-spacing: 0.20000000298023224px;
 text-align: left;
 margin-bottom: 15px;
-
+color: white;
 }
 .have_txt{
 font-family: Montserrat;
@@ -457,6 +456,14 @@ font-weight: 500;
 line-height: 20px;
 letter-spacing: 0.20000000298023224px;
 text-align: left;
+color: white;
 
 	width: 456px;
+}
+.have_cards{
+	justify-content: space-around;
+	margin-bottom: 10%;
+}
+.have{
+	background: #252B42;
 }
